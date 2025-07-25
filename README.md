@@ -8,7 +8,7 @@ Our solution bypasses the limitations of cross-domain sandboxed iframes and lock
 
 To ensure this solution works reliably, it is essential to use Kameleo with Playwright. Kameleo's anti-detect browsers (Chroma and Junglefox) mask your browser fingerprint and hide the fact that you are running in an automated environment. Without this stealth capability, Cloudflare is likely to detect your automation, which would result in repeated captchas even after the checkbox is clicked. See the "non-working example" in `playwright_opencv-not_working.js`.
 
-For the full article and detailed explanation, visit: [Click the Cloudflare Turnstile – No bullshit](https://kameleo.io/blog/click-the-cloudflare-turnstile).
+For the full article and detailed explanation, visit: [Click the Cloudflare Turnstile – No bullshit](https://kameleo.io/blog/click-cloudflare-turnstile-checkbox).
 
 
 ## Setup & Run
